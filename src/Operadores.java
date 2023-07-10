@@ -1,11 +1,8 @@
 public class Operadores {
     public static void main(String[] args) {
-        int numero = 5;
-        numero = - numero;
-        System.out.println(numero);
+        boolean variavel = true;
 
-        numero = numero * -1;
-        System.out.println(numero);
-
+        variavel = !variavel;
+        System.out.println(variavel);
     }
 }
